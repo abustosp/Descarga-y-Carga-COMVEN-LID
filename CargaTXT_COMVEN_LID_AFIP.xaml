@@ -134,14 +134,14 @@
           <av:Size x:Key="ShapeSize">200,81</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="1324,14084" sap2010:WorkflowViewState.IdRef="Sequence_73">
+      <Sequence sap:VirtualizedContainerService.HintSize="1324,14164" sap2010:WorkflowViewState.IdRef="Sequence_73">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Multiple" sap:VirtualizedContainerService.HintSize="1262,13973" sap2010:WorkflowViewState.IdRef="Sequence_72">
+        <Sequence DisplayName="Multiple" sap:VirtualizedContainerService.HintSize="1262,14053" sap2010:WorkflowViewState.IdRef="Sequence_72">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -188,37 +188,37 @@
               </scg:List>
             </ui:FilterDataTable.SelectColumns>
           </ui:FilterDataTable>
-          <Sequence DisplayName="Sequence: En Firefox multiple" sap:VirtualizedContainerService.HintSize="1200,13326" sap2010:WorkflowViewState.IdRef="Sequence_71">
+          <Sequence DisplayName="Sequence: En Firefox multiple" sap:VirtualizedContainerService.HintSize="1200,13406" sap2010:WorkflowViewState.IdRef="Sequence_71">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="1138,13215" sap2010:WorkflowViewState.IdRef="OpenBrowser_5" Url="https://auth.afip.gob.ar/contribuyente_/login.xhtml">
+            <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="1138,13295" sap2010:WorkflowViewState.IdRef="OpenBrowser_5" Url="https://auth.afip.gob.ar/contribuyente_/login.xhtml">
               <ui:OpenBrowser.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1104,13113" sap2010:WorkflowViewState.IdRef="Sequence_70">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1104,13193" sap2010:WorkflowViewState.IdRef="Sequence_70">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Multiple" sap:VirtualizedContainerService.HintSize="1042,13002" sap2010:WorkflowViewState.IdRef="Sequence_69">
+                    <Sequence DisplayName="Multiple" sap:VirtualizedContainerService.HintSize="1042,13082" sap2010:WorkflowViewState.IdRef="Sequence_69">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[CUITMultiple]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="980,12891" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
+                      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[CUITMultiple]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="980,12971" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
                         <ui:ForEachRow.Body>
                           <ActivityAction x:TypeArguments="sd:DataRow">
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Row" />
                             </ActivityAction.Argument>
-                            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="946,12776" sap2010:WorkflowViewState.IdRef="Sequence_68">
+                            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="946,12856" sap2010:WorkflowViewState.IdRef="Sequence_68">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="x:Boolean" Name="MisServicios" />
                               </Sequence.Variables>
@@ -365,7 +365,7 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                               </ui:UiElementExists>
-                              <If Condition="[MisServicios = True]" sap:VirtualizedContainerService.HintSize="884,11556" sap2010:WorkflowViewState.IdRef="If_1">
+                              <If Condition="[MisServicios = True]" sap:VirtualizedContainerService.HintSize="884,11636" sap2010:WorkflowViewState.IdRef="If_1">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -373,13 +373,13 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                                 <If.Then>
-                                  <Sequence sap:VirtualizedContainerService.HintSize="850,11374" sap2010:WorkflowViewState.IdRef="Sequence_76">
+                                  <Sequence sap:VirtualizedContainerService.HintSize="850,11454" sap2010:WorkflowViewState.IdRef="Sequence_76">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <Sequence DisplayName="Proceso desde abrir servicio hasta cerrar el servicio" sap:VirtualizedContainerService.HintSize="808,10206" sap2010:WorkflowViewState.IdRef="Sequence_78">
+                                    <Sequence DisplayName="Proceso desde abrir servicio hasta cerrar el servicio" sap:VirtualizedContainerService.HintSize="808,10286" sap2010:WorkflowViewState.IdRef="Sequence_78">
                                       <Sequence.Variables>
                                         <Variable x:TypeArguments="x:Boolean" Name="Cambio_de_Contrib" />
                                       </Sequence.Variables>
@@ -438,7 +438,7 @@
                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="14c8adec-c033-478b-8bd1-80d1e686f35d" Selector="&lt;html app='firefox.exe' title='IVA – Portal integrado' /&gt;&lt;webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' /&gt;" TimeoutMS="4000" WaitForReady="COMPLETE" />
                                         </ui:UiElementExists.Target>
                                       </ui:UiElementExists>
-                                      <Sequence DisplayName="Secuencia en Aplicativo" sap:VirtualizedContainerService.HintSize="746,9582" sap2010:WorkflowViewState.IdRef="Sequence_89">
+                                      <Sequence DisplayName="Secuencia en Aplicativo" sap:VirtualizedContainerService.HintSize="746,9662" sap2010:WorkflowViewState.IdRef="Sequence_89">
                                         <Sequence.Variables>
                                           <Variable x:TypeArguments="x:String" Default="[row(&quot;Periodo AFIP&quot;).ToString]" Name="Periodo" />
                                         </Sequence.Variables>
@@ -679,13 +679,13 @@
                                             </ActivityAction>
                                           </ui:BrowserScope.Body>
                                         </ui:BrowserScope>
-                                        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Página Libro IVA" sap:VirtualizedContainerService.HintSize="684,7425" sap2010:WorkflowViewState.IdRef="BrowserScope_17" InformativeScreenshot="1c5c59e8eec1a12853211bd5b5a68346" Selector="&lt;html app='firefox.exe' title='Libro IVA' /&gt;">
+                                        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Página Libro IVA" sap:VirtualizedContainerService.HintSize="684,7505" sap2010:WorkflowViewState.IdRef="BrowserScope_17" InformativeScreenshot="1c5c59e8eec1a12853211bd5b5a68346" Selector="&lt;html app='firefox.exe' title='Libro IVA' /&gt;">
                                           <ui:BrowserScope.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
                                                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                               </ActivityAction.Argument>
-                                              <Sequence sap:VirtualizedContainerService.HintSize="650,7278" sap2010:WorkflowViewState.IdRef="Sequence_91">
+                                              <Sequence sap:VirtualizedContainerService.HintSize="650,7358" sap2010:WorkflowViewState.IdRef="Sequence_91">
                                                 <Sequence.Variables>
                                                   <Variable x:TypeArguments="x:Boolean" Name="VistaPrevia" />
                                                   <Variable x:TypeArguments="x:Boolean" Name="VentasCBTE" />
@@ -703,7 +703,7 @@
                                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1cdeeacd-1fe9-4420-bf92-e7a94e918047" InformativeScreenshot="723c078223bcd7c995968bff380ab69c" Selector="&lt;webctrl id='btnVistaPrevia' tag='BUTTON' /&gt;" TimeoutMS="5000" WaitForReady="COMPLETE" />
                                                   </ui:UiElementExists.Target>
                                                 </ui:UiElementExists>
-                                                <If Condition="[VistaPrevia = False]" sap:VirtualizedContainerService.HintSize="588,794" sap2010:WorkflowViewState.IdRef="If_8">
+                                                <If Condition="[VistaPrevia = False]" sap:VirtualizedContainerService.HintSize="588,874" sap2010:WorkflowViewState.IdRef="If_8">
                                                   <If.Then>
                                                     <Sequence sap:VirtualizedContainerService.HintSize="452,612" sap2010:WorkflowViewState.IdRef="Sequence_103">
                                                       <sap:WorkflowViewStateService.ViewState>
@@ -866,7 +866,13 @@
                                                     </Sequence>
                                                   </If.Then>
                                                   <If.Else>
-                                                    <Sequence sap2010:WorkflowViewState.IdRef="Sequence_104" />
+                                                    <Sequence sap:VirtualizedContainerService.HintSize="300,80" sap2010:WorkflowViewState.IdRef="Sequence_104">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                    </Sequence>
                                                   </If.Else>
                                                 </If>
                                                 <ui:FileExistsX DisplayName="File Exists" Exists="[VentasCBTE]" sap:VirtualizedContainerService.HintSize="588,133" sap2010:WorkflowViewState.IdRef="FileExistsX_1" Path="[string.Format(&quot;{0}\{1}&quot;, row(&quot;Raiz&quot;) , row(&quot;LIV CBTE&quot;) )]" />
@@ -1026,7 +1032,7 @@
                                                         </ui:Click>
                                                         <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Nombre de Archivo" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_43" Text="[string.Format(&quot;{0}\{1}&quot;, row(&quot;Raiz&quot;) , row(&quot;LIV CBTE&quot;) )]">
                                                           <ui:TypeInto.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1048,7 +1054,7 @@
                                                             </ui:CursorPosition>
                                                           </ui:Click.CursorPosition>
                                                           <ui:Click.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd omit:ctrlid='1' title='&amp;amp;Abrir' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1082,7 +1088,7 @@
                                                         </ui:Click>
                                                         <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Nombre de Archivo" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_44" Text="[string.Format(&quot;{0}\{1}&quot;, row(&quot;Raiz&quot;) , row(&quot;LIV ALIC&quot;) )]">
                                                           <ui:TypeInto.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1104,7 +1110,7 @@
                                                             </ui:CursorPosition>
                                                           </ui:Click.CursorPosition>
                                                           <ui:Click.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd omit:ctrlid='1' title='&amp;amp;Abrir' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1370,7 +1376,7 @@
                                                         </ui:Click>
                                                         <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Nombre de Archivo" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_45" Text="[string.Format(&quot;{0}\{1}&quot;, row(&quot;Raiz&quot;) , row(&quot;LIC CBTE&quot;) )]">
                                                           <ui:TypeInto.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1392,7 +1398,7 @@
                                                             </ui:CursorPosition>
                                                           </ui:Click.CursorPosition>
                                                           <ui:Click.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd omit:ctrlid='1' title='&amp;amp;Abrir' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1426,7 +1432,7 @@
                                                         </ui:Click>
                                                         <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Nombre de Archivo" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_46" Text="[string.Format(&quot;{0}\{1}&quot;, row(&quot;Raiz&quot;) , row(&quot;LIC ALIC&quot;) )]">
                                                           <ui:TypeInto.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1448,7 +1454,7 @@
                                                             </ui:CursorPosition>
                                                           </ui:Click.CursorPosition>
                                                           <ui:Click.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd omit:ctrlid='1' title='&amp;amp;Abrir' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>

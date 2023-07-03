@@ -1026,7 +1026,7 @@
                                                         </ui:Click>
                                                         <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayBetweenKeys="0" DisplayName="Nombre de Archivo" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_43" SimulateType="False" Text="[string.Format(&quot;{0}\{1}&quot;, row(&quot;Raiz&quot;) , row(&quot;LIV CBTE&quot;) )]">
                                                           <ui:TypeInto.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1048,7 +1048,7 @@
                                                             </ui:CursorPosition>
                                                           </ui:Click.CursorPosition>
                                                           <ui:Click.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd omit:ctrlid='1' title='&amp;amp;Abrir' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1082,7 +1082,7 @@
                                                         </ui:Click>
                                                         <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayBetweenKeys="0" DisplayName="Nombre de Archivo" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_44" SimulateType="False" Text="[string.Format(&quot;{0}\{1}&quot;, row(&quot;Raiz&quot;) , row(&quot;LIV ALIC&quot;) )]">
                                                           <ui:TypeInto.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1104,7 +1104,7 @@
                                                             </ui:CursorPosition>
                                                           </ui:Click.CursorPosition>
                                                           <ui:Click.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd omit:ctrlid='1' title='&amp;amp;Abrir' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1370,7 +1370,7 @@
                                                         </ui:Click>
                                                         <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Nombre de Archivo" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_45" Text="[string.Format(&quot;{0}\{1}&quot;, row(&quot;Raiz&quot;) , row(&quot;LIC CBTE&quot;) )]">
                                                           <ui:TypeInto.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1392,7 +1392,7 @@
                                                             </ui:CursorPosition>
                                                           </ui:Click.CursorPosition>
                                                           <ui:Click.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd omit:ctrlid='1' title='&amp;amp;Abrir' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1426,7 +1426,7 @@
                                                         </ui:Click>
                                                         <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Nombre de Archivo" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="TypeInto_46" Text="[string.Format(&quot;{0}\{1}&quot;, row(&quot;Raiz&quot;) , row(&quot;LIC ALIC&quot;) )]">
                                                           <ui:TypeInto.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1b0de0fa-200f-4127-b2a9-3a009f1416c1" InformativeScreenshot="cf5ed6fd2c4b9f005bb8e604e800fc9a" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
@@ -1448,7 +1448,7 @@
                                                             </ui:CursorPosition>
                                                           </ui:Click.CursorPosition>
                                                           <ui:Click.Target>
-                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' title='Subir archivo' /&gt;&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;">
+                                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9145117b-7ed5-41b3-a893-8f61893a2416" InformativeScreenshot="240ef945eca925ff4cc87368c7eca514" Selector="&lt;wnd app='firefox.exe' cls='#32770' omit:title='Subir archivo' /&gt;&lt;wnd omit:ctrlid='1' title='&amp;amp;Abrir' /&gt;">
                                                               <ui:Target.TimeoutMS>
                                                                 <InArgument x:TypeArguments="x:Int32" />
                                                               </ui:Target.TimeoutMS>
