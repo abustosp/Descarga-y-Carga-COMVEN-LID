@@ -1,0 +1,743 @@
+{
+  "GlobalStatistics": {
+    "BrowserTypeChangeCount": 20,
+    "SelectorChangesCount": 44,
+    "ActivityTypes": {
+      "ui:OpenBrowser": 4,
+      "ui:UiElementExists": 8,
+      "ui:Click": 16,
+      "ui:BrowserScope": 32,
+      "ui:SendHotkey": 4
+    }
+  },
+  "FileChanges": [
+    {
+      "FilePath": "CargaTXT_COMVEN_LID_AFIP sin ST.xaml",
+      "Statistics": {
+        "BrowserTypeChangeCount": 5,
+        "SelectorChangesCount": 11,
+        "ActivityTypes": {
+          "ui:OpenBrowser": 1,
+          "ui:UiElementExists": 2,
+          "ui:Click": 4,
+          "ui:BrowserScope": 8,
+          "ui:SendHotkey": 1
+        }
+      },
+      "Changes": [
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:OpenBrowser",
+          "DisplayName": "Open Browser",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Existencia de Mis servicios",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click Mis servicios",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='PORTAL IVA' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='PORTAL IVA' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Cambiar contrib",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Página Libro IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Página Libro IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Ninguna de las anteriores",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='No realizo ninguna actividad anterior*' parentid='seccionConMovimientos' tag='LABEL' /><webctrl parentid='seccionConMovimientos' class='checkmark' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='No realizo ninguna actividad anterior*' parentid='seccionConMovimientos' tag='LABEL' /><webctrl parentid='seccionConMovimientos' class='checkmark' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Cerrar Servicio de Portal IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Cerrar Servicio de Portal IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Send Hotkey 'MAIN'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Selecionar página principal de AFIP",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='*Clave Fiscal*' />",
+          "Value": "<html app='chrome.exe' title='*Clave Fiscal*' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Selecionar página principal de AFIP",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        }
+      ],
+      "Warnings": [
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre de Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1148' /><wnd ctrlid='1148' /><wnd ctrlid='1148' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Abrir",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1' title='&amp;Abrir' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre de Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1148' /><wnd ctrlid='1148' /><wnd ctrlid='1148' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Abrir",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1' title='&amp;Abrir' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre de Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1148' /><wnd ctrlid='1148' /><wnd ctrlid='1148' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Abrir",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1' title='&amp;Abrir' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre de Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1148' /><wnd ctrlid='1148' /><wnd ctrlid='1148' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Abrir",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1' title='&amp;Abrir' />"
+        }
+      ]
+    },
+    {
+      "FilePath": "CargaTXT_COMVEN_LID_AFIP.xaml",
+      "Statistics": {
+        "BrowserTypeChangeCount": 5,
+        "SelectorChangesCount": 11,
+        "ActivityTypes": {
+          "ui:OpenBrowser": 1,
+          "ui:UiElementExists": 2,
+          "ui:Click": 4,
+          "ui:BrowserScope": 8,
+          "ui:SendHotkey": 1
+        }
+      },
+      "Changes": [
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:OpenBrowser",
+          "DisplayName": "Open Browser",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Existencia de Mis servicios",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click Mis servicios",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='PORTAL IVA' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='PORTAL IVA' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Cambiar contrib",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Página Libro IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Página Libro IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Ninguna de las anteriores",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='No realizo ninguna actividad anterior*' parentid='seccionConMovimientos' tag='LABEL' /><webctrl parentid='seccionConMovimientos' class='checkmark' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='No realizo ninguna actividad anterior*' parentid='seccionConMovimientos' tag='LABEL' /><webctrl parentid='seccionConMovimientos' class='checkmark' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Cerrar Servicio de Portal IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Cerrar Servicio de Portal IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Send Hotkey 'MAIN'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Selecionar página principal de AFIP",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='*Clave Fiscal*' />",
+          "Value": "<html app='chrome.exe' title='*Clave Fiscal*' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Selecionar página principal de AFIP",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        }
+      ],
+      "Warnings": [
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre de Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1148' /><wnd ctrlid='1148' /><wnd ctrlid='1148' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Abrir",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1' title='&amp;Abrir' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre de Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1148' /><wnd ctrlid='1148' /><wnd ctrlid='1148' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Abrir",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1' title='&amp;Abrir' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre de Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1148' /><wnd ctrlid='1148' /><wnd ctrlid='1148' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Abrir",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1' title='&amp;Abrir' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre de Archivo",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1148' /><wnd ctrlid='1148' /><wnd ctrlid='1148' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Abrir",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Subir archivo' /><wnd ctrlid='1' title='&amp;Abrir' />"
+        }
+      ]
+    },
+    {
+      "FilePath": "Descarga_COMVEN_LID_AFIP sin ST.xaml",
+      "Statistics": {
+        "BrowserTypeChangeCount": 5,
+        "SelectorChangesCount": 11,
+        "ActivityTypes": {
+          "ui:OpenBrowser": 1,
+          "ui:UiElementExists": 2,
+          "ui:Click": 4,
+          "ui:BrowserScope": 8,
+          "ui:SendHotkey": 1
+        }
+      },
+      "Changes": [
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:OpenBrowser",
+          "DisplayName": "Open Browser",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Existencia de Mis servicios",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click Mis servicios",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='PORTAL IVA' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='PORTAL IVA' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Cambiar contrib",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Página Libro IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Página Libro IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Ninguna de las anteriores",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='No realizo ninguna actividad anterior*' parentid='seccionConMovimientos' tag='LABEL' /><webctrl parentid='seccionConMovimientos' class='checkmark' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='No realizo ninguna actividad anterior*' parentid='seccionConMovimientos' tag='LABEL' /><webctrl parentid='seccionConMovimientos' class='checkmark' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Cerrar Servicio de Portal IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Cerrar Servicio de Portal IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Send Hotkey 'MAIN'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Selecionar página principal de AFIP",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='*Clave Fiscal*' />",
+          "Value": "<html app='chrome.exe' title='*Clave Fiscal*' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Selecionar página principal de AFIP",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        }
+      ],
+      "Warnings": [
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Ingrese nombre de archivo a guardar…' /><wnd aaname='Panel del explorador' cls='DirectUIHWND' /><wnd aaname='Nombre:' cls='ComboBox' /><wnd ctrlid='1001' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Guardar",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Ingrese nombre de archivo a guardar…' /><wnd ctrlid='1' title='&amp;Guardar' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Ingrese nombre de archivo a guardar…' /><wnd aaname='Panel del explorador' cls='DirectUIHWND' /><wnd aaname='Nombre:' cls='ComboBox' /><wnd ctrlid='1001' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Guardar",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Ingrese nombre de archivo a guardar…' /><wnd ctrlid='1' title='&amp;Guardar' />"
+        }
+      ]
+    },
+    {
+      "FilePath": "Descarga_COMVEN_LID_AFIP.xaml",
+      "Statistics": {
+        "BrowserTypeChangeCount": 5,
+        "SelectorChangesCount": 11,
+        "ActivityTypes": {
+          "ui:OpenBrowser": 1,
+          "ui:UiElementExists": 2,
+          "ui:Click": 4,
+          "ui:BrowserScope": 8,
+          "ui:SendHotkey": 1
+        }
+      },
+      "Changes": [
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:OpenBrowser",
+          "DisplayName": "Open Browser",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Existencia de Mis servicios",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Click Mis servicios",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Portal de Clave Fiscal' /><webctrl aaname='PORTAL IVA' />",
+          "Value": "<html app='chrome.exe' title='Portal de Clave Fiscal' /><webctrl aaname='PORTAL IVA' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:UiElementExists",
+          "DisplayName": "Element Exists",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Portal IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Cambiar contrib",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />",
+          "Value": "<html app='chrome.exe' title='IVA – Portal integrado' /><webctrl idx='2' isleaf='1' parentid='usernav' tag='SPAN' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Página Libro IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Página Libro IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:Click",
+          "DisplayName": "Ninguna de las anteriores",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' /><webctrl aaname='No realizo ninguna actividad anterior*' parentid='seccionConMovimientos' tag='LABEL' /><webctrl parentid='seccionConMovimientos' class='checkmark' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' /><webctrl aaname='No realizo ninguna actividad anterior*' parentid='seccionConMovimientos' tag='LABEL' /><webctrl parentid='seccionConMovimientos' class='checkmark' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Cerrar Servicio de Portal IVA",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Cerrar Servicio de Portal IVA",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:SendHotkey",
+          "DisplayName": "Send Hotkey 'MAIN'",
+          "PropertyName": "Target.Selector",
+          "Original": "<html app='firefox.exe' title='Libro IVA' />",
+          "Value": "<html app='chrome.exe' title='Libro IVA' />"
+        },
+        {
+          "Type": "Selector",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Selecionar página principal de AFIP",
+          "PropertyName": "Selector",
+          "Original": "<html app='firefox.exe' title='*Clave Fiscal*' />",
+          "Value": "<html app='chrome.exe' title='*Clave Fiscal*' />"
+        },
+        {
+          "Type": "BrowserType",
+          "ActivityType": "ui:BrowserScope",
+          "DisplayName": "Selecionar página principal de AFIP",
+          "PropertyName": "BrowserType",
+          "Original": "Firefox",
+          "Value": "Chrome"
+        }
+      ],
+      "Warnings": [
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Ingrese nombre de archivo a guardar…' /><wnd aaname='Panel del explorador' cls='DirectUIHWND' /><wnd aaname='Nombre:' cls='ComboBox' /><wnd ctrlid='1001' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Guardar",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Ingrese nombre de archivo a guardar…' /><wnd ctrlid='1' title='&amp;Guardar' />"
+        },
+        {
+          "ActivityType": "ui:TypeInto",
+          "DisplayName": "Nombre",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Ingrese nombre de archivo a guardar…' /><wnd aaname='Panel del explorador' cls='DirectUIHWND' /><wnd aaname='Nombre:' cls='ComboBox' /><wnd ctrlid='1001' />"
+        },
+        {
+          "ActivityType": "ui:Click",
+          "DisplayName": "Guardar",
+          "PropertyName": "Target.Selector",
+          "Value": "<wnd app='firefox.exe' cls='#32770' title='Ingrese nombre de archivo a guardar…' /><wnd ctrlid='1' title='&amp;Guardar' />"
+        }
+      ]
+    }
+  ]
+}
