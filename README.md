@@ -71,6 +71,8 @@ Los pasos para ejecutar el bot son los siguientes:
 - En caso que no se guarden los Archivos con el nombre definido en el Excel se debe ejecutar el bot que contiene en su nombre "sin ST"
 
 - Las ubicaciones del Excel deben ir desde el Disco hasta la Ubicación completa con un backslash final (ejemplo: `C:\Users\Agustin Bustos\Desktop\TEST\`)
+
+- Si el bot no hace click en "Examinar Archivos" en la página del LID se debe modificar la propiedad del click para que el SimulateClick sea False
   
 
 ---
