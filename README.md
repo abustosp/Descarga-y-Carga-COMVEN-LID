@@ -50,9 +50,9 @@ Los pasos para ejecutar el bot son los siguientes:
 
 ---
 
-## Particularidades del BOT:
+## Requisitos del BOT:
 
-- El Bot corre en Firefox (se puede configurar para Chrome pero se recomienda el primero por temas de rendimiento) y en Windows 10 cómo mínimo.
+- El Bot corre únicamente en Firefox (se puede adaptar para Chrome pero se recomienda el primero por temas de rendimiento) y en Windows 10 cómo mínimo.
 
   - Firefox se debe configurar de la siguiente manera:
 
