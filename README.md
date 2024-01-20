@@ -101,6 +101,8 @@ Cualquier cosa pueden contactarme en:
 
 - whatsapp al https://wa.me/+5493764224695
 
+- Link de comunidad de Contadores Argentinos en Telegram (uno de los temas es RPA): https://t.me/contadores_argentinos
+
 ---
 
 ### 💰 Acepto donaciones para mantener el proyecto libre y gratuito
