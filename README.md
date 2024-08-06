@@ -68,7 +68,7 @@ Los pasos para ejecutar el bot son los siguientes:
 
     ![Configuración de descarga](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Descarga-de-Archivos.png?raw=true "Configuración de descarga")
 
-- En caso que no se guarden los Archivos con el nombre definido en el Excel se debe ejecutar el bot que contiene en su nombre "sin ST"
+- En caso que no se guarden los Archivos en la ubicación con nombre definido en el Excel se debe colocar `NO` en la columna `ST`
 
 - Las ubicaciones del Excel deben ir desde el Disco hasta la Ubicación completa con un backslash final (ejemplo: `C:\Users\Agustin Bustos\Desktop\TEST\`)
 
